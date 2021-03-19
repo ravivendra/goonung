@@ -1,3 +1,4 @@
+
 # goonung
 Go simple utility helpers to support my work in ideas and projects.
 
@@ -22,6 +23,18 @@ To work with *Goonung*, you can start by using the command :
 	 `$ go get -u github.com/ravivendra/goonung`
 
 Currently I am on progress to make it compatible with `GO Modules` fundamental.
+
+## Coverage Test
+Currently, these codes have been completed with unit test, just run command below to run the test :
+
+	$ go test -v -cover
+
+Here is the result of coverage test :
+
+> ravivendra:goonung ravivendra$ go test -cover
+> PASS coverage:
+> 100.0% of statements
+> ok      github.com/ravivendra/goonung    0.396s
 
 ## License
 ***MIT License***
