@@ -31,10 +31,10 @@ Currently, these codes have been completed with unit test, just run command belo
 
 Here is the result of coverage test :
 
-> ravivendra:goonung ravivendra$ go test -cover
-> PASS coverage:
-> 100.0% of statements
-> ok      github.com/ravivendra/goonung    0.396s
+    ravivendra:goonung ravivendra$ go test -cover
+    PASS coverage:
+    100.0% of statements
+    ok      github.com/ravivendra/goonung    0.396s
 
 ## License
 ***MIT License***
