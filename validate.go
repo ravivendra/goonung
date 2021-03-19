@@ -1,7 +1,6 @@
 package goonung
 
 import (
-	"errors"
 	"reflect"
 )
 
@@ -11,10 +10,6 @@ var (
 )
 
 func validate(param interface{}, kinds ...reflect.Kind) (bool, error) {
-	if kinds == nil {
-		return false, errors.New("Invalid registered data type")
-	}
-
 	var val = reflect.ValueOf(param)
 
 	for _, kind := range kinds {

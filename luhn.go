@@ -23,10 +23,12 @@ func calculate(numbers int) int {
 }
 
 // Calculate : calculate the Luhn
-func Calculate(numbers int) (int, error) {
-	if ok, err := IsInt(numbers); ok != true {
-		return -1, err
+func Calculate(param interface{}) (int, error) {
+	if ok, err := IsInt(param); ok != true {
+		return 0, err
 	}
+
+	numbers := param.(int)
 
 	checksum := calculate(numbers)
 
