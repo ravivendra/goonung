@@ -3,7 +3,7 @@ package goonung
 import "testing"
 
 func TestCalculate(t *testing.T) {
-	if _, err := Calculate("Ravi Vendra R"); err != nil {
+	if _, err := Calculate(""); err != nil {
 		t.Errorf("Input by string argument : %s", err.Error())
 	}
 
@@ -11,7 +11,7 @@ func TestCalculate(t *testing.T) {
 		t.Errorf("Input by float argument : %s", err.Error())
 	}
 
-	if _, err := Calculate(4603187054300987); err != nil {
+	if _, err := Calculate(1234567890123456); err != nil {
 		t.Errorf("Input by not zero integer argument : %s", err.Error())
 	}
 

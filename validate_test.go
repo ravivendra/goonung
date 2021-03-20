@@ -3,7 +3,7 @@ package goonung
 import "testing"
 
 func TestIsArray(t *testing.T) {
-	if _, err := IsArray("Ravi Vendra R"); err != nil {
+	if _, err := IsArray(""); err != nil {
 		t.Errorf("Input by invalid array argument : %s", err.Error())
 	}
 }
@@ -27,7 +27,7 @@ func TestIsFloat(t *testing.T) {
 }
 
 func TestIsInt(t *testing.T) {
-	if _, err := IsInt("Ravi Vendra R"); err != nil {
+	if _, err := IsInt(""); err != nil {
 		t.Errorf("Input by invalid integer argument : %s", err.Error())
 	}
 }
