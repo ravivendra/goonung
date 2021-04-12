@@ -8,6 +8,5 @@ func TestRead(t *testing.T) {
 	}
 
 	if _, err := Read("sample/log.txt", 0400); err == nil {
-		// t.Errorf("Valid file")
 	}
 }
