@@ -1,13 +1,13 @@
 
-# goonung
+# goONung
 Go simple utility helpers to support my work in ideas and projects.
 
 The name **Goonung** is derived from 2 words :
 - **Go**, the main core language used for this personal repository
 - **Cemenung**, a *350 masl small hill* nearby the village where I was born and grew up, located in south-eastern of *Tulungagung (East Java, Indonesia)*.
 
-## Software Engineer
-* D A N R A
+## Author
+* Ravi Vendra Rishika <<ravi.vendra.rishika@gmail.com>>
 
 ## Technology Stack
 *Goonung* is developed using :
@@ -37,4 +37,5 @@ Here is the result of coverage test :
     ok      github.com/ravivendra/goonung    0.396s
 
 ## License
-***MIT License***
+[***MIT License***](https://choosealicense.com/licenses/mit)
+
