@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golek.pahala/goonung/rotation"
+	"github.com/ravivendra/goonung/rotation"
 )
 
 // FileRotation : rotate (archiving) files with day-1 and create the new one

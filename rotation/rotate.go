@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"golek.pahala/goonung/tarball"
+	"github.com/ravivendra/goonung/tarball"
 )
 
 // Delete : delete file in specific path
